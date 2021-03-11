@@ -35,3 +35,8 @@
   background-color: #001329;
   color: #f1f1f1;
 }
+
+/* img-carsosel */
+#img-height img{
+  height: 25rem!important;
+}
