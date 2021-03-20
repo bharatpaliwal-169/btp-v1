@@ -83,3 +83,9 @@ body{
 .brand-de{
   margin-left: 10rem;
 }
+
+.post-headings{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 4rem;
+  color: rgb(7, 35, 160);
+}
