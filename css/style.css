@@ -1,9 +1,19 @@
+body{
+  background: transparent url('../images/Union_1.svg') 0% 0%  padding-box;
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
+  opacity: 1;
+}
 #main-content{
   margin-top: 40px;
   /* op line */
   align-items: center;
-  background: transparent url('../images/Union_1.svg') 0% 0% no-repeat padding-box;
-  opacity: 1;
+  /* background: transparent url('../images/Union_1.svg') 0% 0%  padding-box;
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
+  opacity: 1; */
 }
 
 .bg-custom{
@@ -50,16 +60,26 @@
   box-shadow: 0px 3px 6px #0000001A;
   border-radius: 15px;
   opacity: 1;
-  width: 184px;
+  /* width: 184px; */
 }
 
 /* pose items */
 .pose-img{
+  position: relative;
   width: 108px;
   height: 108px;
-  border: 1px solid #707070;
+  /* border: 1px solid #707070; */
   margin-top: 28px;
-  margin-left: 24px;
-  margin-right: 38px;
+  left: 15%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
+/* margin for nav */
+.nav-de{
+  margin-right: 10rem;
+}
+.brand-de{
+  margin-left: 10rem;
+}
