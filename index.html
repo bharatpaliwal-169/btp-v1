@@ -9,6 +9,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/base.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <title>BTP</title>
 </head>
 <body>
@@ -22,13 +23,13 @@
       <div class="collapse navbar-collapse" id="NSC">
         <div class='navbar-nav ms-auto'>
           <li class="nav-item cc">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link abt" href="#">About</a>
           </li>
           <li class="nav-item cc">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link abt" href="#">Contact</a>
           </li>
           <li class="nav-item nav-de">
-            <button class ='custom btn btn-md btn-info'>Get Demo</button>
+            <button class ='custom0 btn btn-md btn-info'>Get Demo</button>
           </li>
         </div>
       </div>
@@ -39,11 +40,12 @@
   <div class='container d-none d-lg-block'>
     <div class='row' id='main-content'>
       <!-- para-1  -->
-      <div class="mt-5 col-sm-4 d-none d-md-block offset-sm-1">
+      <div class="mt-5 col-sm-4 d-none d-md-block offset-sm-1" 
+            data-aos="fade-right"
+            data-aos-duration="2000"
+      >
         <h4 class="bold mb-4">  
-          "Lorem ipsum dolor sit amet,
-          consectetur adipiscing elit, sed do
-          eiusmod"
+          Welcome to a brand new yoga pose detection algorithm which will help you by detecting your pose and correcting you!
         </h4>
         <p>
           "Lorem ipsum dolor sit amet, consectetur
@@ -53,21 +55,31 @@
           laboris nisi ut aliquip ex ea co"
         </p>
         <br>
-        <button class='btn btn-lg btn-success custom'> Get Demo </button>
+        <button class='btn btn-lg btn-success custom1'> Get Demo </button>
       </div>
       
 
-      <div class="col-12 col-sm-4 offset-sm-2">
+      <div class="col-12 col-sm-4 offset-sm-2" 
+          data-aos="fade-left"
+          data-aos-duration="2000"
+          
+      >
         <img src="images/img-1.png" alt="image" class="img-fluid">
       </div>
       <!-- para-1 -->
 
       <!-- para-2 -->
-      <div class="mt-5 col-12 col-sm-4 offset-sm-1">
+      <div class="mt-5 col-12 col-sm-4 offset-sm-1"
+          data-aos="fade-right"
+          data-aos-duration="2000"
+      >
         <img src="images/img-2.png" alt="image" class="img-fluid">
       </div>
 
-      <div class="mt-5 col-sm-4 d-none d-md-block offset-sm-2">
+      <div class="mt-5 col-sm-4 d-none d-md-block offset-sm-2"
+          data-aos="fade-left"
+          data-aos-duration="2000"
+      >
         <div class="mt-5">
           <h4 class="bold mb-4">  
             "Lorem ipsum dolor sit amet,
@@ -86,83 +98,63 @@
       <!-- para-2 -->
     
       <div class='col-12 mt-5 mb-3'>
-        <div class='row mt-5 align-center justify-content-center'>
+        <div class='row mt-5 align-center justify-content-center'
+            data-aos="fade-up"
+            data-aos-duration="2000"
+            data-aos-easing="ease-in-sine"
+        >
+        
           <div class='col-12 text-center mb-5'>
             <h3 class='display-3 post-headings'> Importance of correct posture </h3>
           </div>
           <section class='col-10 col-sm-2 card  me-4'>
-            <img src="images/pose.jpeg" alt="pose" class='pose-img card-img-top img-fluid img-responsive' />
+            <img src="images/asana.svg" alt="pose" class='pose-img card-img-top img-fluid img-responsive' />
             <div class="card-body">
-              <h5>Heading</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <h5>Asanas</h5>
+              <p class="card-text">Asanas provide both spiritual and physical benefits.It improve flexibility, strength, and balance.</p>
             </div>
           </section>
           <section class='col-10 col-sm-2 card me-4'>
-            <img src="images/pose.jpeg" alt="pose" class='pose-img card-img-top img-fluid img-responsive' />
+            <img src="images/yoga-pose.svg" alt="pose" class='pose-img card-img-top img-fluid img-responsive' />
             <div class="card-body">
-              <h5>Heading</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <h5>Meditation</h5>
+              <p class="card-text">Meditation may significantly reduce stress, anxiety, depression, and enhance peace and well-being.</p>
             </div>
           </section>
           <section class='col-10 col-sm-2 card me-4'>
-            <img src="images/pose.jpeg" alt="pose" class='pose-img card-img-top img-fluid img-responsive' />
+            <img src="images/meditation.svg" alt="pose" class='pose-img card-img-top img-fluid img-responsive' />
             <div class="card-body">
-              <h5>Heading</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <h5>Mudra</h5>
+              <p class="card-text">Mudras are hand gestures used in conjunction with pranayama(yogic breathing exercises)</p>
             </div>
           </section>
           
           <section class='col-10 col-sm-2  card  me-4 mt-2'>
-            <img src="images/pose.jpeg" alt="pose" class='pose-img card-img-top img-fluid img-responsive' />
+            <img src="images/lotus-flower.svg" alt="pose" class='pose-img card-img-top img-fluid img-responsive' />
             <div class="card-body">
-              <h5>Heading</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <h5>Pranayama</h5>
+              <p class="card-text">Pranayama is the practice of breath control in yoga. It improves sleep quality and increases mildfulness.</p>
             </div>
           </section>
           
           <section class='col-10 col-sm-2 card me-4 mt-2'>
-            <img src="images/pose.jpeg" alt="pose" class='pose-img card-img-top img-fluid img-responsive' />
+            <img src="images/yoga.svg" alt="pose" class='pose-img card-img-top img-fluid img-responsive' />
             <div class="card-body">
-              <h5>Heading</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <h5>Yamas</h5>
+              <p class="card-text">Yamas means "reining in" or "control". They are a form of moral imperatives, commandments, rules or goals.</p>
             </div>
           </section>
-          <!-- <section class='col-10 col-sm-2 card me-4 mt-2'>
-            <img src="images/pose.jpeg" alt="pose" class='pose-img card-img-top img-fluid img-responsive' />
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-          </section>
-          <section class='col-10 col-sm-2 card me-4 mt-2'>
-            <img src="images/pose.jpeg" alt="pose" class='pose-img card-img-top img-fluid img-responsive' />
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-          </section>
-          <section class='col-10 col-sm-2 card me-4 mt-2'>
-            <img src="images/pose.jpeg" alt="pose" class='pose-img card-img-top img-fluid img-responsive' />
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-          </section>
-          <section class='col-10 col-sm-2 card me-4 mt-2'>
-            <img src="images/pose.jpeg" alt="pose" class='pose-img card-img-top img-fluid img-responsive' />
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-          </section>
-          <section class='col-10 col-sm-2 card me-4 mt-2'>
-            <img src="images/pose.jpeg" alt="pose" class='pose-img card-img-top img-fluid img-responsive' />
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-          </section> -->
+          
         </div>
 
       </div>
       
       <!-- para-3 -->
-      <div class="mt-5 col-sm-4 d-none d-md-block offset-sm-1">
+      <div class="mt-5 col-sm-4 d-none d-md-block offset-sm-1"
+          data-aos="fade-right"
+          data-aos-duration="2000"
+          data-aos-easing="ease-in-sine"
+      >
         <h4 class="bold mt-5 mb-4">  
           "Lorem ipsum dolor sit amet,
           consectetur adipiscing elit, sed do
@@ -176,7 +168,11 @@
           laboris nisi ut aliquip ex ea co"
         </p>
       </div>
-      <div class="col-12 col-sm-4 offset-sm-2 mt-5">
+      <div class="col-12 col-sm-4 offset-sm-2 mt-5" 
+        data-aos="fade-left"
+        data-aos-duration="2000"
+        data-aos-easing="ease-in-sine"
+      >
         <img src="images/img-3.png" alt="image" class="img-fluid">
       </div>
       <!-- para-3 -->
@@ -189,7 +185,7 @@
   </div>
 
   <!-- footer -->
-  <div class="container-fluid">
+  <div class="container-fluid mt-5">
     <div class="row">
       <div class='col-12 text-center footer'>
         &copy; YogaAI 2021
@@ -206,6 +202,9 @@
   </div>
   <!-- bootstrap -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
-
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
