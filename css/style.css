@@ -110,6 +110,9 @@ body{
 }
 .brand-de{
   margin-left: 10rem;
+  font-weight: 900;
+  letter-spacing: 1px;
+  font-size: 1.5rem;
 }
 
 .post-headings{
